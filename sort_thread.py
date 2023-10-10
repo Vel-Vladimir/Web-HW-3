@@ -89,4 +89,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print(f'Sorting time: {perf_counter()-start}')
+    print(f'Sorting time: {perf_counter()-start:0.2f} sec.')
